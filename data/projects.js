@@ -8,5 +8,15 @@ export const projects = [
     technologies: ["Next.js", "React", "AI/ML", "Vercel"],
     status: "Completed",
     date: "2024-01"
+  },
+  {
+    id: 2,
+    title: "PromptSnap",
+    description: "YouTube video frame extraction tool that generates AI prompts for recreating original videos. Users input YouTube URLs, extract representative frames, and receive prompts to regenerate videos using those frames as reference images.",
+    thumbnail: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop&crop=center",
+    url: "https://prompt-snap.vercel.app/",
+    technologies: ["Next.js", "React", "YouTube API", "Computer Vision", "Vercel"],
+    status: "Completed",
+    date: "2024-01"
   }
 ]; 
